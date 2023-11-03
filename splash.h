@@ -4,6 +4,7 @@
 void splash_screen(void)    // This function is created to read the ASCII image from Splash.txt and display it
 {
     FILE *splash = fopen("Splash.txt", "r");
+
     if (splash == NULL){
         printf("Error!\n");
     return -1;}
