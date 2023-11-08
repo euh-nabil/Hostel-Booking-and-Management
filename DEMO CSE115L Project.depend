@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1698454675 source:c:\users\smart view\desktop\demo cse115l project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<unistd.h>
+	"splash.h"
+	"login.h"
+
+1698448181 c:\users\smart view\desktop\demo cse115l project\splash.h
+
+1698455923 c:\users\smart view\desktop\demo cse115l project\login.h
+
+1699207108 source:c:\users\smart view\desktop\hostel-booking-and-management\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<unistd.h>
+	<windows.h>
+	"splash.h"
+	"options.h"
+	"login.h"
+	"menu.h"
+	"booking.h"
+	"booked_rooms.h"
+	"search_room.h"
+	"depart.h"
+	"change_pass.h"
+
+1698853219 c:\users\smart view\desktop\hostel-booking-and-management\splash.h
+
+1698521482 c:\users\smart view\desktop\hostel-booking-and-management\login.h
+
+1698513252 c:\users\smart view\desktop\hostel-booking-and-management\options.h
+
+1698852710 c:\users\smart view\desktop\hostel-booking-and-management\menu.h
+
+1698659739 c:\users\smart view\desktop\hostel-booking-and-management\booking.h
+
+1698740252 c:\users\smart view\desktop\hostel-booking-and-management\booked_rooms.h
+
+1698740252 c:\users\smart view\desktop\hostel-booking-and-management\search_room.h
+
+1698853219 c:\users\smart view\desktop\hostel-booking-and-management\depart.h
+
+1698551360 c:\users\smart view\desktop\hostel-booking-and-management\change_pass.h
+
+1698554258 source:c:\users\smart view\desktop\new folder\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<unistd.h>
+	<windows.h>
+	"splash.h"
+	"options.h"
+	"login.h"
+	"menu.h"
+	"booking.h"
+	"booked_rooms.h"
+	"search_room.h"
+	"depart.h"
+	"change_pass.h"
+
+1698513252 c:\users\smart view\desktop\new folder\splash.h
+
+1698513252 c:\users\smart view\desktop\new folder\options.h
+
+1698521482 c:\users\smart view\desktop\new folder\login.h
+
+1698553402 c:\users\smart view\desktop\new folder\menu.h
+
+1698659739 c:\users\smart view\desktop\new folder\booking.h
+
+1698555100 c:\users\smart view\desktop\new folder\booked_rooms.h
+
+1698548866 c:\users\smart view\desktop\new folder\search_room.h
+
+1698549412 c:\users\smart view\desktop\new folder\depart.h
+
+1698551360 c:\users\smart view\desktop\new folder\change_pass.h
+
