@@ -12,12 +12,13 @@
 
 1698455923 c:\users\smart view\desktop\demo cse115l project\login.h
 
-1699207108 source:c:\users\smart view\desktop\hostel-booking-and-management\main.c
+1699614607 source:c:\users\smart view\desktop\hostel-booking-and-management\main.c
 	<stdio.h>
 	<stdlib.h>
+	<dos.h>
+	<unistd.h>
 	<math.h>
 	<string.h>
-	<unistd.h>
 	<windows.h>
 	"splash.h"
 	"options.h"
@@ -33,7 +34,7 @@
 
 1698521482 c:\users\smart view\desktop\hostel-booking-and-management\login.h
 
-1698513252 c:\users\smart view\desktop\hostel-booking-and-management\options.h
+1699616184 c:\users\smart view\desktop\hostel-booking-and-management\options.h
 
 1698852710 c:\users\smart view\desktop\hostel-booking-and-management\menu.h
 

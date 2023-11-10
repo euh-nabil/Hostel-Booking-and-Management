@@ -13,9 +13,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <dos.h>
+#include <unistd.h>
 #include <math.h>
 #include <string.h>
-#include <unistd.h>
 #include <windows.h> // Only applicable for WindowsOS
 #include "splash.h"
 #include "options.h"

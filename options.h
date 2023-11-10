@@ -13,6 +13,7 @@ printf("\xdb\xdb\xdb\xdb 3. EXIT\n\n");
 int choose;
 int first_time_or_not = 0;
 int status;
+
 do{
 if(first_time_or_not==0)
 printf("CHOOSE AN OPTION : ");
