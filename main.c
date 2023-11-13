@@ -1,4 +1,4 @@
-/* PROJECT TITLE : "HOSTEL BOOKING & MANAGEMENT" */
+/* PROJECT TITLE : "HOSTEL BOOKING AND MANAGEMENT" */
 // NORTH SOUTH UNIVERSITY
 // MLE CSE115L SECTION-9
 // SUMMER 2023
@@ -14,7 +14,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <dos.h>
-#include <unistd.h>
 #include <math.h>
 #include <string.h>
 #include <windows.h> // Only applicable for WindowsOS
@@ -135,8 +134,8 @@ int main(void)
       break;}
      }
 
-} // Curly brace for infinite while loop of MAIN MENU (Comment for coding convenience)
-} // Curly brace for the if statement that controls the execution of 'menu.h' (Comment for coding convenience)
+}
+}
 
     ending_message();
 
@@ -172,5 +171,5 @@ void ending_message(void)
     printf("#                                                 #\n");
     print_hashes(51); // Recursive function call
     printf("\n\n");
-    printf("  P R O J E C T   E X E C U T I O N   E N D E D\n");
+    printf("   P R O J E C T   E X E C U T I O N   E N D E D\n");
 }
