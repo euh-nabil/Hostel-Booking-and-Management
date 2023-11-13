@@ -11,14 +11,7 @@ void change_pass(void) {
     char new_password[100];
 
     FILE *file = fopen("Admin Password.txt", "r");
-
-    if (fscanf(file, "%s %s", username, old_password) != 2)
-    {
-        printf("Error!\n");
-        fclose(file);
-        return;
-    }
-
+    fscanf(file, "%s %s", username, old_password);
     fclose(file);
 
     printf("\n\t\tOld Password: %s\n", old_password);
@@ -26,9 +19,7 @@ void change_pass(void) {
     scanf("%s", new_password);
 
     FILE *temp_file = fopen("temp_admin_password.txt", "w");
-
     fprintf(temp_file, "%s %s", username, new_password);
-
     fclose(temp_file);
 
     remove("Admin Password.txt");
