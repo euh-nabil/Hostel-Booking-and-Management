@@ -1,7 +1,8 @@
 #ifndef BOOKING_H_INCLUDED
 #define BOOKING_H_INCLUDED
 
-struct student_data {
+struct student_data
+{
     int room_number;
     char name[100];
     char father_name[100];

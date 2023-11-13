@@ -19,8 +19,10 @@ if(first_time_or_not==0)
 printf("CHOOSE AN OPTION : ");
 else
 printf("Invalid. CHOOSE AN OPTION : ");
+
 status = scanf("%d", &choose);
 first_time_or_not++;
+
 } while(!(status==1 && (choose==1 || choose==2 || choose==3)));
 
 system("cls");

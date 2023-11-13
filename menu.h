@@ -1,8 +1,8 @@
 #ifndef MENU_H_INCLUDED
 #define MENU_H_INCLUDED
 
-void menu(void)
-{
+void menu(void){
+
     Beep(1000, 1000); // Added beep sound
 
     printf("\t\t###################################################\n");
@@ -21,6 +21,7 @@ void menu(void)
     printf("\t\t 5. CHANGE ADMIN PASSWORD\n\n");
     printf("\t\t 0. EXIT\n");
     printf("\t\t---------------------------------------------------\n\n");
+
 }
 
 #endif // MENU_H_INCLUDED

@@ -9,6 +9,7 @@ int login(void) // login() will return 1 if the user successfully logs in
     FILE *admin_password;
     int i = 0; // This variable keeps track of the iteration of do-while loop.
                // If the inputs are incorrect, in the next iteration an invalid message is shown.
+
     int choice;
     do{
     printf("\n\t\t\xdb\xdb\xdb\xdb\xdb\xdb ADMIN LOGIN \xdb\xdb\xdb\xdb\xdb\xdb\n");

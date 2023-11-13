@@ -1,7 +1,8 @@
 #ifndef SEARCH_ROOM_H_INCLUDED
 #define SEARCH_ROOM_H_INCLUDED
 
-struct residing_student {
+struct residing_student
+{
     int room_number;
     char name[100];
     char father_name[100];
@@ -14,7 +15,8 @@ struct residing_student {
     char booking_date[20];
 };
 
-void search_room(void) {
+void search_room(void)
+{
     int room_to_check;
 
     printf("\n\n\t\t\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb SEARCH FOR A ROOM "
@@ -51,7 +53,8 @@ void search_room(void) {
         break;
     }
     }
-    if (!found) {
+    if (!found)
+    {
         printf("\n\t\tRoom-%d isn't booked.\n", room_to_check);
     }
 

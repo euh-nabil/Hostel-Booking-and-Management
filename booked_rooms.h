@@ -1,7 +1,8 @@
 #ifndef BOOKED_ROOMS_H_INCLUDED
 #define BOOKED_ROOMS_H_INCLUDED
 
-struct booked_room_info {
+struct booked_room_info
+{
     int room_number;
     char name[100];
     char father_name[100];
@@ -14,13 +15,15 @@ struct booked_room_info {
     char booking_date[20];
 };
 
-void booked_rooms(void) {
+void booked_rooms(void)
+{
     printf("\n\n\t\t\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb LIST OF BOOKED ROOMS"
            " \xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\n\n\n");
 
     FILE *file = fopen("Database.txt", "r");
 
-    if (file == NULL) {
+    if (file == NULL)
+    {
         printf("Error!\n");
         return;
     }
@@ -36,10 +39,14 @@ void booked_rooms(void) {
 
     fclose(file);
 
-    if (s_count == 0) {
+    if (s_count == 0)
+    {
         printf("\t\tNo rooms have been booked.\n");
-    } else {
-        for (int i = 0; i < s_count; i++) {
+    }
+    else
+    {
+        for (int i = 0; i < s_count; i++)
+        {
             printf("\t\tRoom Number: %d\n", students[i].room_number);
             printf("\t\t-------------------\n");
             printf("\t\tName of the occupant: %s\n", students[i].name);

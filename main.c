@@ -49,7 +49,8 @@ int main(void)
     */
 
     if(status==1)
-{   while(1){
+{   while(1)
+{
 
     int choose;
     menu();
